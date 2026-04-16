@@ -30,7 +30,7 @@ Logs:       journalctl -u slpfw -f
 ### Install Options
 
 ```bash
-sudo bash install.sh --ssh-port 5456 --password MySecurePass
+sudo bash install.sh --ssh-port 22 --password MySecurePass
 sudo bash install.sh --no-interactive --force
 ```
 
